@@ -12,10 +12,13 @@ import {
   View
 } from 'react-native';
 
+import Category from './app/components/category'
+
 export default class Circles extends Component {
   render() {
     return (
       <View style={styles.container}>
+        <Category />
         <Text style={styles.welcome}>
           Welcome to React Native!
         </Text>
